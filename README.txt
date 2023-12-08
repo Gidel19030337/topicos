@@ -12,3 +12,5 @@ python manage.py runserver
 pip install django
 django-admin --version
 python manage.py collectstatic
+pip install whitenoise
+pip freeze > requirements.txt
